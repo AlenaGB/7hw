@@ -18,11 +18,11 @@ class Matrix:
     def __str__(self):
         return str('\n'.join(['\t'.join([str(j) for j in i]) for i in matr]))
 
-my_matrix = Matrix([[5, 18, 11],
+my_matrix = Matrix([[7, 18, 11],
                     [6, 17, 23],
                     [41, 50, 9]],
                    [[45, 8, 2],
                     [6, 7, 93],
-                    [24, 5, 97]])
+                    [23, 5, 87]])
 
 print(my_matrix.__add__())
